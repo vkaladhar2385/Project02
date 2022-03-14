@@ -13,6 +13,7 @@ public final class LinkedStack<T> implements StackInterface<T>
         topNode = null;
     } // end default constructor
 
+
 //  < Implementations of the stack operations go here. >
 //  . . .
 
