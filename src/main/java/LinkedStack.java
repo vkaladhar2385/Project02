@@ -65,7 +65,7 @@ public final class LinkedStack<T> implements StackInterface<T> {
 	}
 
 //  < Implementations of the stack operations go here. >
-  public LinkedStack<Integer> evaluatePostfix(String exp)
+  public LinkedStack<Integer> convertToPostfix(String exp)
     {
         LinkedStack<Integer> valueStack = new LinkedStack<Integer>();    // Create postfix stack
         int n = exp.length();
